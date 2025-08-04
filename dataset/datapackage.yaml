@@ -250,7 +250,7 @@ resources:
     name: dados_cronicas_ses_2023
     path: data/dados_cronicas_SES_2023.csv
     profile: tabular-data-resource
-   schema:
+    schema:
       fields:
         - name: dt_obito
           type: date
