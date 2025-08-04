@@ -6,7 +6,7 @@ A segunda etapa consiste em um tratamento preliminar dos dados, com revisão das
 A terceira etapa é o tratamento final dos dados, no qual são revisados e tratados os dados de mortalidade para a publicação de banco de disseminação de dados em versão final nos meios de comunicação do Ministério da Saúde.
 
 Com sua longa série temporal, o SIM é um patrimônio nacional, pois possui informações fundamentais para que se possa conhecer os aspectos referentes à mortalidade no Brasil e às causas de adoecimento que levaram ao óbito. É, ainda, um dos principais instrumentos para apoiar a elaboração de políticas públicas de saúde e seguridade social mais efetivas visando à prevenção, promoção e cuidado em saúde.
-Uma das informações disponíveis no SIM é a causa básica de óbito, a qual é codificada a partir das informações declaradas pelo médico atestante, segundo regras estabelecidas pela Organização Mundial de Saúde..
+Uma das informações disponíveis no SIM é a causa básica de óbito, a qual é codificada a partir das informações declaradas pelo médico atestante, segundo regras estabelecidas pela Organização Mundial de Saúde.
 
 Para fins de definição, as DCNT são divididas em 4 grandes grupos de doenças, considerando-se os códigos que constam na 10ª revisão da [Classificação Internacional de Doenças (CID-10)](http://www2.datasus.gov.br/cid10/V2008/cid10.htm), listados a seguir:
 
@@ -45,4 +45,5 @@ Além disso, fique a vontade para utilizar os demais canais oficiais de atendime
 - [Fale Conosco](https://www.saude.mg.gov.br/fale-conosco): Dúvidas
 - [Manifestações de Ouvidoria](http://www.ouvidoriageral.mg.gov.br/): Denúncia, Reclamação, Crítica, Elogio ou Sugestões
 - [Pedido de Acesso à Informação](http://www.acessoainformacao.mg.gov.br/sistema/site/index.html): Acesso às informações dos órgãos e entidades estaduais que não estejam publicamente disponíveis
+
 
