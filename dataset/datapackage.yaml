@@ -38,7 +38,7 @@ resources:
         - name: categoria_cid_causa_basica
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Doenças Crônicas SES 2020
   - description: Insira a descrição/explicação detalhada deste recurso.
     dialect:
       delimiter: ;
@@ -75,7 +75,7 @@ resources:
         - name: categoria_cid_causa_basica
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Doenças Crônicas SES 2021
   - description: Insira a descrição/explicação detalhada deste recurso.
     dialect:
       delimiter: ;
@@ -112,7 +112,7 @@ resources:
         - name: categoria_cid_causa_basica
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Doenças Crônicas SES 2022
   - description: Insira a descrição/explicação detalhada deste recurso.
     dialect:
       delimiter: ;
@@ -149,7 +149,7 @@ resources:
         - name: categoria_cid_causa_basica
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Doenças Crônicas SES 2023
   - description: Insira a descrição/explicação detalhada deste recurso.
     dialect:
       delimiter: ;
@@ -186,7 +186,7 @@ resources:
         - name: categoria_cid_causa_basica
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Doenças Crônicas SES 2024
   - description: Insira a descrição/explicação detalhada deste recurso.
     dialect:
       delimiter: ;
@@ -223,5 +223,5 @@ resources:
         - name: categoria_cid_causa_basica
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-title: Doencas_croninas
+    title: Doenças Crônicas SES 2025
+title: Doenças Crônicas Não Transmissíveis
