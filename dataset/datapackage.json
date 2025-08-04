@@ -4,7 +4,6 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -18,51 +17,101 @@
         "fields": [
           {
             "name": "dt_obito",
-            "type": "date"
+            "type": "date",
+            "title": "Data do Óbito",
+            "description": "Data do Óbito"
           },
           {
             "name": "dt_nascimento",
-            "type": "date"
+            "type": "date",
+            "title": "Data de Nascimento",
+            "description": "Data de Nascimento"
           },
           {
             "name": "nu_idade",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Idade",
+            "description": "Idade"
           },
           {
-            "name": "sg_sexo",
-            "type": "string"
+            "name": "cs_sexo",
+            "type": "string",
+            "title": "Sexo",
+            "description": "Sexo",
+            "constraints": {
+              "enum": [
+                "Feminino",
+                "Masculino",
+                "Ignorado"
+              ]
+            }
           },
           {
-            "name": "tp_raca_cor",
-            "type": "string"
+            "name": "cs_raca",
+            "type": "string",
+            "title": "Raça/Cor",
+            "description": "Raça/Cor",
+            "constraints": {
+              "enum": [
+                "Branca",
+                "Preta",
+                "Amarela",
+                "Parda",
+                "Indígena",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "tp_escolaridade",
-            "type": "string"
+            "type": "string",
+            "title": "Escolaridade",
+            "description": "Escolaridade",
+            "constraints": {
+              "enum": [
+                "de 1 a 3 anos",
+                "de 4 a 7 anos",
+                "de 8 a 11 anos",
+                "Nenhuma",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "co_municipio_ibge_residencia",
-            "type": "string"
+            "type": "string",
+            "title": "Local de residência",
+            "description": "Local de residência"
           },
           {
             "name": "co_municipio_ibge_ocorrencia",
-            "type": "string"
+            "type": "string",
+            "title": "Local de ocorrência",
+            "description": "Local de ocorrência"
           },
           {
             "name": "co_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "CID10",
+            "description": "CID10"
           },
           {
             "name": "desc_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Descrição do CID",
+            "description": "Descrição do CID"
           },
           {
             "name": "capitulo_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Capítulo CID",
+            "description": "Capítulo CID"
           },
           {
             "name": "categoria_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Categoria CID",
+            "description": "Categoria CID"
           }
         ]
       },
@@ -70,7 +119,6 @@
       "title": "Doenças Crônicas SES 2020"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -84,51 +132,101 @@
         "fields": [
           {
             "name": "dt_obito",
-            "type": "date"
+            "type": "date",
+            "title": "Data do Óbito",
+            "description": "Data do Óbito"
           },
           {
             "name": "dt_nascimento",
-            "type": "datetime"
+            "type": "date",
+            "title": "Data de Nascimento",
+            "description": "Data de Nascimento"
           },
           {
             "name": "nu_idade",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Idade",
+            "description": "Idade"
           },
           {
-            "name": "sg_sexo",
-            "type": "string"
+            "name": "cs_sexo",
+            "type": "string",
+            "title": "Sexo",
+            "description": "Sexo",
+            "constraints": {
+              "enum": [
+                "Feminino",
+                "Masculino",
+                "Ignorado"
+              ]
+            }
           },
           {
-            "name": "tp_raca_cor",
-            "type": "string"
+            "name": "cs_raca",
+            "type": "string",
+            "title": "Raça/Cor",
+            "description": "Raça/Cor",
+            "constraints": {
+              "enum": [
+                "Branca",
+                "Preta",
+                "Amarela",
+                "Parda",
+                "Indígena",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "tp_escolaridade",
-            "type": "string"
+            "type": "string",
+            "title": "Escolaridade",
+            "description": "Escolaridade",
+            "constraints": {
+              "enum": [
+                "de 1 a 3 anos",
+                "de 4 a 7 anos",
+                "de 8 a 11 anos",
+                "Nenhuma",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "co_municipio_ibge_residencia",
-            "type": "string"
+            "type": "string",
+            "title": "Local de residência",
+            "description": "Local de residência"
           },
           {
             "name": "co_municipio_ibge_ocorrencia",
-            "type": "string"
+            "type": "string",
+            "title": "Local de ocorrência",
+            "description": "Local de ocorrência"
           },
           {
             "name": "co_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "CID10",
+            "description": "CID10"
           },
           {
             "name": "desc_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Descrição do CID",
+            "description": "Descrição do CID"
           },
           {
             "name": "capitulo_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Capítulo CID",
+            "description": "Capítulo CID"
           },
           {
             "name": "categoria_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Categoria CID",
+            "description": "Categoria CID"
           }
         ]
       },
@@ -136,7 +234,6 @@
       "title": "Doenças Crônicas SES 2021"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -150,51 +247,101 @@
         "fields": [
           {
             "name": "dt_obito",
-            "type": "date"
+            "type": "date",
+            "title": "Data do Óbito",
+            "description": "Data do Óbito"
           },
           {
             "name": "dt_nascimento",
-            "type": "date"
+            "type": "date",
+            "title": "Data de Nascimento",
+            "description": "Data de Nascimento"
           },
           {
             "name": "nu_idade",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Idade",
+            "description": "Idade"
           },
           {
-            "name": "sg_sexo",
-            "type": "string"
+            "name": "cs_sexo",
+            "type": "string",
+            "title": "Sexo",
+            "description": "Sexo",
+            "constraints": {
+              "enum": [
+                "Feminino",
+                "Masculino",
+                "Ignorado"
+              ]
+            }
           },
           {
-            "name": "tp_raca_cor",
-            "type": "string"
+            "name": "cs_raca",
+            "type": "string",
+            "title": "Raça/Cor",
+            "description": "Raça/Cor",
+            "constraints": {
+              "enum": [
+                "Branca",
+                "Preta",
+                "Amarela",
+                "Parda",
+                "Indígena",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "tp_escolaridade",
-            "type": "string"
+            "type": "string",
+            "title": "Escolaridade",
+            "description": "Escolaridade",
+            "constraints": {
+              "enum": [
+                "de 1 a 3 anos",
+                "de 4 a 7 anos",
+                "de 8 a 11 anos",
+                "Nenhuma",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "co_municipio_ibge_residencia",
-            "type": "string"
+            "type": "string",
+            "title": "Local de residência",
+            "description": "Local de residência"
           },
           {
             "name": "co_municipio_ibge_ocorrencia",
-            "type": "string"
+            "type": "string",
+            "title": "Local de ocorrência",
+            "description": "Local de ocorrência"
           },
           {
             "name": "co_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "CID10",
+            "description": "CID10"
           },
           {
             "name": "desc_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Descrição do CID",
+            "description": "Descrição do CID"
           },
           {
             "name": "capitulo_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Capítulo CID",
+            "description": "Capítulo CID"
           },
           {
             "name": "categoria_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Categoria CID",
+            "description": "Categoria CID"
           }
         ]
       },
@@ -202,7 +349,6 @@
       "title": "Doenças Crônicas SES 2022"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -216,51 +362,101 @@
         "fields": [
           {
             "name": "dt_obito",
-            "type": "date"
+            "type": "date",
+            "title": "Data do Óbito",
+            "description": "Data do Óbito"
           },
           {
             "name": "dt_nascimento",
-            "type": "date"
+            "type": "date",
+            "title": "Data de Nascimento",
+            "description": "Data de Nascimento"
           },
           {
             "name": "nu_idade",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Idade",
+            "description": "Idade"
           },
           {
-            "name": "sg_sexo",
-            "type": "string"
+            "name": "cs_sexo",
+            "type": "string",
+            "title": "Sexo",
+            "description": "Sexo",
+            "constraints": {
+              "enum": [
+                "Feminino",
+                "Masculino",
+                "Ignorado"
+              ]
+            }
           },
           {
-            "name": "tp_raca_cor",
-            "type": "string"
+            "name": "cs_raca",
+            "type": "string",
+            "title": "Raça/Cor",
+            "description": "Raça/Cor",
+            "constraints": {
+              "enum": [
+                "Branca",
+                "Preta",
+                "Amarela",
+                "Parda",
+                "Indígena",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "tp_escolaridade",
-            "type": "string"
+            "type": "string",
+            "title": "Escolaridade",
+            "description": "Escolaridade",
+            "constraints": {
+              "enum": [
+                "de 1 a 3 anos",
+                "de 4 a 7 anos",
+                "de 8 a 11 anos",
+                "Nenhuma",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "co_municipio_ibge_residencia",
-            "type": "string"
+            "type": "string",
+            "title": "Local de residência",
+            "description": "Local de residência"
           },
           {
             "name": "co_municipio_ibge_ocorrencia",
-            "type": "string"
+            "type": "string",
+            "title": "Local de ocorrência",
+            "description": "Local de ocorrência"
           },
           {
             "name": "co_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "CID10",
+            "description": "CID10"
           },
           {
             "name": "desc_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Descrição do CID",
+            "description": "Descrição do CID"
           },
           {
             "name": "capitulo_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Capítulo CID",
+            "description": "Capítulo CID"
           },
           {
             "name": "categoria_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Categoria CID",
+            "description": "Categoria CID"
           }
         ]
       },
@@ -268,7 +464,6 @@
       "title": "Doenças Crônicas SES 2023"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -282,51 +477,101 @@
         "fields": [
           {
             "name": "dt_obito",
-            "type": "date"
+            "type": "date",
+            "title": "Data do Óbito",
+            "description": "Data do Óbito"
           },
           {
             "name": "dt_nascimento",
-            "type": "date"
+            "type": "date",
+            "title": "Data de Nascimento",
+            "description": "Data de Nascimento"
           },
           {
             "name": "nu_idade",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Idade",
+            "description": "Idade"
           },
           {
-            "name": "sg_sexo",
-            "type": "string"
+            "name": "cs_sexo",
+            "type": "string",
+            "title": "Sexo",
+            "description": "Sexo",
+            "constraints": {
+              "enum": [
+                "Feminino",
+                "Masculino",
+                "Ignorado"
+              ]
+            }
           },
           {
-            "name": "tp_raca_cor",
-            "type": "string"
+            "name": "cs_raca",
+            "type": "string",
+            "title": "Raça/Cor",
+            "description": "Raça/Cor",
+            "constraints": {
+              "enum": [
+                "Branca",
+                "Preta",
+                "Amarela",
+                "Parda",
+                "Indígena",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "tp_escolaridade",
-            "type": "string"
+            "type": "string",
+            "title": "Escolaridade",
+            "description": "Escolaridade",
+            "constraints": {
+              "enum": [
+                "de 1 a 3 anos",
+                "de 4 a 7 anos",
+                "de 8 a 11 anos",
+                "Nenhuma",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "co_municipio_ibge_residencia",
-            "type": "string"
+            "type": "string",
+            "title": "Local de residência",
+            "description": "Local de residência"
           },
           {
             "name": "co_municipio_ibge_ocorrencia",
-            "type": "string"
+            "type": "string",
+            "title": "Local de ocorrência",
+            "description": "Local de ocorrência"
           },
           {
             "name": "co_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "CID10",
+            "description": "CID10"
           },
           {
             "name": "desc_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Descrição do CID",
+            "description": "Descrição do CID"
           },
           {
             "name": "capitulo_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Capítulo CID",
+            "description": "Capítulo CID"
           },
           {
             "name": "categoria_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Categoria CID",
+            "description": "Categoria CID"
           }
         ]
       },
@@ -334,7 +579,6 @@
       "title": "Doenças Crônicas SES 2024"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -348,51 +592,101 @@
         "fields": [
           {
             "name": "dt_obito",
-            "type": "date"
+            "type": "date",
+            "title": "Data do Óbito",
+            "description": "Data do Óbito"
           },
           {
             "name": "dt_nascimento",
-            "type": "date"
+            "type": "date",
+            "title": "Data de Nascimento",
+            "description": "Data de Nascimento"
           },
           {
             "name": "nu_idade",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Idade",
+            "description": "Idade"
           },
           {
-            "name": "sg_sexo",
-            "type": "string"
+            "name": "cs_sexo",
+            "type": "string",
+            "title": "Sexo",
+            "description": "Sexo",
+            "constraints": {
+              "enum": [
+                "Feminino",
+                "Masculino",
+                "Ignorado"
+              ]
+            }
           },
           {
-            "name": "tp_raca_cor",
-            "type": "string"
+            "name": "cs_raca",
+            "type": "string",
+            "title": "Raça/Cor",
+            "description": "Raça/Cor",
+            "constraints": {
+              "enum": [
+                "Branca",
+                "Preta",
+                "Amarela",
+                "Parda",
+                "Indígena",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "tp_escolaridade",
-            "type": "string"
+            "type": "string",
+            "title": "Escolaridade",
+            "description": "Escolaridade",
+            "constraints": {
+              "enum": [
+                "de 1 a 3 anos",
+                "de 4 a 7 anos",
+                "de 8 a 11 anos",
+                "Nenhuma",
+                "Ignorado"
+              ]
+            }
           },
           {
             "name": "co_municipio_ibge_residencia",
-            "type": "string"
+            "type": "string",
+            "title": "Local de residência",
+            "description": "Local de residência"
           },
           {
             "name": "co_municipio_ibge_ocorrencia",
-            "type": "string"
+            "type": "string",
+            "title": "Local de ocorrência",
+            "description": "Local de ocorrência"
           },
           {
             "name": "co_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "CID10",
+            "description": "CID10"
           },
           {
             "name": "desc_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Descrição do CID",
+            "description": "Descrição do CID"
           },
           {
             "name": "capitulo_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Capítulo CID",
+            "description": "Capítulo CID"
           },
           {
             "name": "categoria_cid_causa_basica",
-            "type": "string"
+            "type": "string",
+            "title": "Categoria CID",
+            "description": "Categoria CID"
           }
         ]
       },
