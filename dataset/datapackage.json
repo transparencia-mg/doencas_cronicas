@@ -67,7 +67,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Doenças Crônicas SES 2020"
     },
     {
       "description": "Insira a descrição/explicação detalhada deste recurso.",
@@ -133,7 +133,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Doenças Crônicas SES 2021"
     },
     {
       "description": "Insira a descrição/explicação detalhada deste recurso.",
@@ -199,7 +199,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Doenças Crônicas SES 2022"
     },
     {
       "description": "Insira a descrição/explicação detalhada deste recurso.",
@@ -265,7 +265,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Doenças Crônicas SES 2023"
     },
     {
       "description": "Insira a descrição/explicação detalhada deste recurso.",
@@ -331,7 +331,7 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Doenças Crônicas SES 2024"
     },
     {
       "description": "Insira a descrição/explicação detalhada deste recurso.",
@@ -397,8 +397,8 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Doenças Crônicas SES 2025"
     }
   ],
-  "title": "Doencas_croninas"
+  "title": "Doenças Crônicas Não Transmissíveis"
 }
