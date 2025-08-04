@@ -2,8 +2,7 @@ name: doencas_croninas
 owner_org: secretaria-de-estado-de-saude-ses
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -83,8 +82,7 @@ resources:
           description: Categoria CID
     scheme: file
     title: Doenças Crônicas SES 2020
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -164,8 +162,7 @@ resources:
           description: Categoria CID
     scheme: file
     title: Doenças Crônicas SES 2021
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -245,8 +242,7 @@ resources:
           description: Categoria CID
     scheme: file
     title: Doenças Crônicas SES 2022
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -326,8 +322,7 @@ resources:
           description: Categoria CID
     scheme: file
     title: Doenças Crônicas SES 2023
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -407,8 +402,7 @@ resources:
           description: Categoria CID
     scheme: file
     title: Doenças Crônicas SES 2024
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
